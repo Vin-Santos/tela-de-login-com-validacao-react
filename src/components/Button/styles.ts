@@ -12,6 +12,11 @@ export const ButtonContainer = styled.button`
 
     &:hover {
         opacity: 0.6;
-        cursor:pointer;
+        cursor: pointer;
     }
-`
+
+    &:disabled{
+        background-color: #555555;
+        opacity: 1;
+        cursor: default;
+    }
